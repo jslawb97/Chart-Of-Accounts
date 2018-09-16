@@ -1,0 +1,125 @@
+***************** MAIN MENU *****************
+Please choose one of the following:
+	1) Post Transactions Menu
+	2) List Transactions Menu
+	3) Delete Transactions Menu
+	4) Update Transactions Menu
+	5) Exit
+Your choice: 9
+
+
+
+---------------Posting a new DB transaction---------------
+***********Post Transaction Menu***********
+	1) Post a new CSV transaction
+	2) Post a new XML transaction
+	4) Post a new DB transaction
+	3) Return to the Main Menu
+Your choice: 9
+
+Please enter the TO account: XXXXXXXX
+
+Please enter the FROM account: XXXXXXXX
+
+Please enter the amount: 9999999
+
+Using the local date on your computer 99/99/9999.
+
+Please enter any comments: XXXXXXXX
+
+Transaction added to the database.
+		OR
+ERROR: Something went wrong.
+-------------------------------------------------------
+
+
+
+***********View Transaction Menu***********
+	1) View all CSV transactions
+	2) View all XML transactions
+	3) View all DB transactions
+	3) Return to the Main Menu
+
+
+
+---------------Deleting a DB transaction---------------
+***********Delete Transaction Menu***********
+	1) Delete CSV transaction
+	2) Delete XML transaction
+	3) Delete DB tansaction
+	4) Invalidate DB transaction
+	5) Return to the Main Menu
+Your choice: 9
+
+Getting transactions from the database...
+Please choose a transaction to delete:
+--------------------------------------------------------------------------------
+-----------------------------TRANSACTIONS---------------------------------------
+ID-------DATE------AMOUNT------FROM--------TO--------COMMENT--------------------
+99    99/99/9999   999.99     xxxxxx     xxxxxx     xxxxxxxxxxxxxxxxxxxxxx
+Please enter the TransactionID to delete: 9999999
+
+Enter the reason you want to modify this transaction: XXXXXXXX
+
+Transaction deleted from the database.
+		OR
+ERROR: Could not delete transaction.
+-------------------------------------------------------
+
+
+
+---------------Invalidating a DB transaction---------------
+***********Delete Transaction Menu***********
+	1) Delete CSV transaction
+	2) Delete XML transaction
+	3) Delete DB tansaction
+	4) Invalidate DB transaction
+	5) Return to the Main Menu
+Your choice: 9
+
+Getting transactions from the database...
+Please choose a transaction to invalidate: 
+--------------------------------------------------------------------------------
+-----------------------------TRANSACTIONS---------------------------------------
+ID-------DATE------AMOUNT------FROM--------TO--------COMMENT--------------------
+99    99/99/9999   999.99     xxxxxx     xxxxxx     xxxxxxxxxxxxxxxxxxxxxx
+Please enter the TransactionID to invalidate: 9999999
+
+Enter the reason you want to modify this transaction: XXXXXXXXXXXXX
+
+Transaction has been marked as invalid.
+		OR
+ERROR: Could not invalidate transaction.
+-------------------------------------------------------
+
+
+
+---------------Updating a DB transaction---------------
+***********Update Transaction Menu***********
+	1) Update CSV transaction
+	2) Update XML transaction
+	3) Update DB tansaction
+	4) Return to the Main Menu
+Your choice: 9
+
+Getting transactions from the database...
+Please choose a transaction to update:
+--------------------------------------------------------------------------------
+-----------------------------TRANSACTIONS---------------------------------------
+ID-------DATE------AMOUNT------FROM--------TO--------COMMENT--------------------
+99    99/99/9999   999.99     xxxxxx     xxxxxx     xxxxxxxxxxxxxxxxxxxxxx
+
+Please enter the TransactionID to update: 9999999
+
+Please enter the TO account: XXXXXXXX
+
+Please enter the FROM account: XXXXXXXX
+
+Please enter the amount: 9999999
+
+Please enter a comment: XXXXXXXX
+
+Transaction update to the database.
+		OR
+ERROR: Transaction could not be updated.
+-------------------------------------------------------

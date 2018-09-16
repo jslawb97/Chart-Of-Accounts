@@ -1,0 +1,35 @@
+01,Asset,Bank
+102,Asset,Cash
+108,Asset,Deferred Expense
+110,Asset,Other Assets
+112,Asset,Accounts Receivable
+116,Asset,Supplies
+130,Asset,Pre-paid Insurance
+157,Asset,Equipment
+158,Asset,Accumulated Depreciation Equipment
+200,Liability,Notes Payable
+201,Liability,Accounts Payable
+209,Liability,Unearned Service Revenue
+210,Liability,Tax Payable
+211,Liability,Bonds Payable
+212,Liability,Salaries and Wages Payable
+230,Liability,Interest Payable
+300,Equity,Common Stock
+310,Equity,Capital
+330,Equity,Retained Earnings
+400,Revenue,Rental Income
+410,Revenue,Sales Income
+420,Revenue,Interest Income
+570,Expense,Office Expense
+585,Expense,Computer Expenses
+595,Expense,Communication Expense
+597,Expense,Labor and Welfare Expenses
+610,Expense,Advertising Expenses
+599,Expense,Printing and Stationary Expenses
+631,Expense,Supplies Expense
+711,Expense,Depreciation Expense
+722,Expense,Insurance Expense
+726,Expense,Salaries and Wages Expense
+729,Expense,Rent Expense
+732,Expense,Utilities Expense
+905,Expense,Interest Expense
